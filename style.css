@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  height:100%;
+}
+
+#container {
+  padding-top: 15vh;
+  width: 100%;
+  margin: 0px;
+  background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(calculator_bg.png);
+  background-size: cover
+}
+
+#calculator {
+  font-family: "Open Sans", sans-serif;
+  width: 300px;
+  height: 400px;
+  background-color: #eaedef;
+  margin: 20px auto;
+  position: center;
+  border-radius: 120px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#result {
+  height: 70px;
+  padding: 40px 50px 10px 50px;
+}
+
+#keyboard {
+  padding: 0px 40px 40px 40px;
+}
+
+#history{
+  height: 15px;
+  color: #999999;
+}
+
+#output{
+  height:35px;
+  font-size: 30px;
+  text-align: right;
+}
+
+#output-value {
+  margin: 0;
+}
+#history-value {
+  margin: 0;
+}
+
+.number, .operator, .main-operator, .empty {
+  width: 35px;
+  height: 35px;
+  margin: 10px;
+  border-radius: 50%;
+  font-size: 15px;
+  font-weight: bold;
+  float: left;
+  border-width: 0;
+}
+
+.operator, .main-operator, #point{
+  background-color: #e2d3d3;
+}
